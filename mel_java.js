@@ -23,7 +23,7 @@ function myForm(form) {
 	}
 
 	else{
-		alert("Get ready for panda facts!");
+		alert("Get ready for days of panda facts!");
 		return true;
 	}
 }
