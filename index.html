@@ -4,40 +4,48 @@
   <meta charset="utf-8">
   <title>International Society of Pandaholics</title>
   <link rel="stylesheet" type="text/css" href="mel_styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
   </style>
   <script src="mel_java.js" type="text/javascript"></script>
 </head>
 
 <body>
-  <div id="header">
-    <h1>Sign up now for Panda Facts!</h1>
-  </div>
   <p>
-  <div id="references">
+    <h1>Sign up now for Panda Facts!</h1>
+  </p>
+    <img src="Images/pinkpanda.png" width="200" height="200">
      <form method="get" autocomplete="on" action="#" onSubmit="return myForm(this);">
-     <input type="text" name="name" placeholder="Name">
     <p>
-      <input type="text" name="email" placeholder="Email">
+     <input class="inputtest" type="text" name="name" placeholder="Name">
+    </form>
+    </p>
     <p>
-      <input type="text" name="phone" placeholder="Phone" maxlength="12"/>  
-    <p> 
+      <input class="inputtest" type="text" name="email" placeholder="Email">
+    </p>
+    <p>
+      <input class="inputtest" type="text" name="phone" placeholder="Phone" maxlength="12"/>  
+    </p>
+    <div class="test2">
        <label for="redpanda">Include red panda facts? </label>
        <input type="radio" name="redpanda" value="Yes" checked> Yes
        <input type="radio" name="redpanda" value="No"> No
-     <p>
+     </div>
+     <div class="test2">
        <label for="trashpanda">Include trash panda facts? </label>
        <input type="radio" name="trashpanda" value="Yes" checked> Yes
        <input type="radio" name="trashpanda" value="No"> No
-       <input type="radio" name="trashpanda" value="No"> What's a trash panda??
-     <p>
+     </div>
+       <div class="test2">
+        <label>What's a trash panda??</label>
+       <input type="radio" name="trashpanda" value="No"> 
+     </div>
+     <div class="submit">
       <input type="submit" value="Bring on the pandas!">
+    </div>
     </form>
+  <div class="pandafact">
+  Panda Fact: 99% of a panda's diet consists of bamboo.
   </div>
-  <div id="footer">
-    <p>Panda Fact: 99% of a panda's diet consists of bamboo.</p>
-  </div>
-   <div id="img">
-   <img src="Images/pinkpanda.png" width="200" height="200">
-</div>
 </body>
+
 </html>
